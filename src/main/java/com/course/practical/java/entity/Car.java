@@ -5,6 +5,10 @@ public class Car {
 	private String brand;
 	private String color;
 	private String type;
+	
+	public Car() {
+		
+	}
 	public Car(String brand, String color, String type) {
 		super();
 		this.brand = brand;
